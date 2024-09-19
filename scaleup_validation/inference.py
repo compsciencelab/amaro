@@ -40,14 +40,13 @@ if __name__ == '__main__':
                     numNoHAtoms=None, 
                     numResidues=None, 
                     source_file="mdcath_noh_source.h5",
+                    file_basename = "mdcath_noh_dataset",
                     pdb_list="test_doms.txt",
                     temperatures=['320', '348', '379', '413', '450'], 
                     skip_frames=1, 
                     noh_mode=True, 
-                    solid_ss=50, 
-                    max_num_neighbors=64,
-                    upper_cutoff=5.0,)
-    
+                    solid_ss=50
+    )    
     print(f'Loaded {len(dataset)} samples')
     
     ######################### GET THE SPLITS #########################
