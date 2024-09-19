@@ -1,0 +1,197 @@
+MODEL        1
+ATOM      1  CAY TYR P   1      -8.249   1.653  -8.784  0.00  0.10      P    C  
+ATOM      2  CY  TYR P   1      -8.449   1.786  -7.813  0.00  0.10      P    C  
+ATOM      3  OY  TYR P   1      -8.271   2.740  -7.571  0.00  0.10      P    O  
+ATOM      4  N   TYR P   1      -8.756   0.918  -7.422  0.00  0.10      P    N  
+ATOM      5  CA  TYR P   1      -9.037   1.105  -6.053  0.00  1.00      P    C  
+ATOM      6  CB  TYR P   1      -9.932  -0.005  -5.445  0.00  0.10      P    C  
+ATOM      7  CG  TYR P   1      -9.950  -0.064  -3.963  0.00  0.10      P    C  
+ATOM      8  CD1 TYR P   1      -9.344  -1.047  -3.206  0.00  0.10      P    C  
+ATOM      9  CE1 TYR P   1      -9.261  -0.932  -1.781  0.00  0.10      P    C  
+ATOM     10  CZ  TYR P   1      -9.926   0.157  -1.180  0.00  0.10      P    C  
+ATOM     11  OH  TYR P   1      -9.897   0.317   0.148  0.00  0.10      P    O  
+ATOM     12  CD2 TYR P   1     -10.551   1.058  -3.337  0.00  0.10      P    C  
+ATOM     13  CE2 TYR P   1     -10.519   1.149  -1.974  0.00  0.10      P    C  
+ATOM     14  C   TYR P   1      -7.788   1.585  -5.264  0.00  0.10      P    C  
+ATOM     15  O   TYR P   1      -7.498   2.768  -5.304  0.00  0.10      P    O  
+ATOM     16  N   TYR P   2      -6.926   0.680  -4.755  0.00  0.10      P    N  
+ATOM     17  CA  TYR P   2      -5.815   1.083  -3.900  0.00  1.00      P    C  
+ATOM     18  CB  TYR P   2      -6.414   1.298  -2.478  0.00  0.10      P    C  
+ATOM     19  CG  TYR P   2      -5.432   1.165  -1.318  0.00  0.10      P    C  
+ATOM     20  CD1 TYR P   2      -5.337  -0.113  -0.723  0.00  0.10      P    C  
+ATOM     21  CE1 TYR P   2      -4.346  -0.426   0.251  0.00  0.10      P    C  
+ATOM     22  CZ  TYR P   2      -3.426   0.575   0.623  0.00  0.10      P    C  
+ATOM     23  OH  TYR P   2      -2.468   0.350   1.627  0.00  0.10      P    O  
+ATOM     24  CD2 TYR P   2      -4.495   2.117  -0.938  0.00  0.10      P    C  
+ATOM     25  CE2 TYR P   2      -3.540   1.868   0.040  0.00  0.10      P    C  
+ATOM     26  C   TYR P   2      -4.631   0.062  -3.901  0.00  0.10      P    C  
+ATOM     27  O   TYR P   2      -4.678  -1.108  -4.121  0.00  0.10      P    O  
+ATOM     28  N   ASP P   3      -3.501   0.690  -3.696  0.00  0.10      P    N  
+ATOM     29  CA  ASP P   3      -2.174   0.160  -3.690  0.00  1.00      P    C  
+ATOM     30  CB  ASP P   3      -1.583   0.081  -5.128  0.00  0.10      P    C  
+ATOM     31  CG  ASP P   3      -0.154  -0.545  -5.256  0.00  0.10      P    C  
+ATOM     32  OD1 ASP P   3       0.897   0.167  -5.394  0.00  0.10      P    O  
+ATOM     33  OD2 ASP P   3      -0.142  -1.813  -5.220  0.00  0.10      P    O  
+ATOM     34  C   ASP P   3      -1.365   0.942  -2.675  0.00  0.10      P    C  
+ATOM     35  O   ASP P   3      -1.531   2.182  -2.639  0.00  0.10      P    O  
+ATOM     36  N   PRO P   4      -0.538   0.352  -1.766  0.00  0.10      P    N  
+ATOM     37  CD  PRO P   4       0.035  -0.926  -1.849  0.00  0.10      P    C  
+ATOM     38  CA  PRO P   4       0.132   1.117  -0.713  0.00  1.00      P    C  
+ATOM     39  CB  PRO P   4       0.819   0.160   0.209  0.00  0.10      P    C  
+ATOM     40  CG  PRO P   4       1.116  -0.970  -0.772  0.00  0.10      P    C  
+ATOM     41  C   PRO P   4       1.005   2.265  -1.165  0.00  0.10      P    C  
+ATOM     42  O   PRO P   4       1.890   2.060  -2.061  0.00  0.10      P    O  
+ATOM     43  N   GLU P   5       0.938   3.492  -0.574  0.00  0.10      P    N  
+ATOM     44  CA  GLU P   5       1.765   4.607  -0.996  0.00  1.00      P    C  
+ATOM     45  CB  GLU P   5       1.280   5.983  -0.437  0.00  0.10      P    C  
+ATOM     46  CG  GLU P   5       1.280   6.486   1.078  0.00  0.10      P    C  
+ATOM     47  CD  GLU P   5       0.407   5.704   1.994  0.00  0.10      P    C  
+ATOM     48  OE1 GLU P   5      -0.745   6.086   2.227  0.00  0.10      P    O  
+ATOM     49  OE2 GLU P   5       0.857   4.610   2.441  0.00  0.10      P    O  
+ATOM     50  C   GLU P   5       3.217   4.464  -0.587  0.00  0.10      P    C  
+ATOM     51  O   GLU P   5       4.073   5.057  -1.239  0.00  0.10      P    O  
+ATOM     52  N   THR P   6       3.520   3.742   0.515  0.00  0.10      P    N  
+ATOM     53  CA  THR P   6       4.855   3.365   0.996  0.00  1.00      P    C  
+ATOM     54  CB  THR P   6       4.843   3.017   2.463  0.00  0.10      P    C  
+ATOM     55  OG1 THR P   6       3.871   1.989   2.771  0.00  0.10      P    O  
+ATOM     56  CG2 THR P   6       4.485   4.139   3.477  0.00  0.10      P    C  
+ATOM     57  C   THR P   6       5.491   2.203   0.215  0.00  0.10      P    C  
+ATOM     58  O   THR P   6       6.715   1.950   0.206  0.00  0.10      P    O  
+ATOM     59  N   GLY P   7       4.688   1.392  -0.498  0.00  0.10      P    N  
+ATOM     60  CA  GLY P   7       5.126   0.369  -1.467  0.00  1.00      P    C  
+ATOM     61  C   GLY P   7       5.704  -0.953  -0.878  0.00  0.10      P    C  
+ATOM     62  O   GLY P   7       5.533  -1.991  -1.498  0.00  0.10      P    O  
+ATOM     63  N   THR P   8       6.358  -0.939   0.238  0.00  0.10      P    N  
+ATOM     64  CA  THR P   8       6.946  -2.124   0.905  0.00  1.00      P    C  
+ATOM     65  CB  THR P   8       8.073  -1.689   1.856  0.00  0.10      P    C  
+ATOM     66  OG1 THR P   8       7.892  -0.321   2.206  0.00  0.10      P    O  
+ATOM     67  CG2 THR P   8       9.392  -1.770   1.068  0.00  0.10      P    C  
+ATOM     68  C   THR P   8       5.915  -2.922   1.714  0.00  0.10      P    C  
+ATOM     69  O   THR P   8       6.207  -4.105   1.947  0.00  0.10      P    O  
+ATOM     70  N   TRP P   9       4.823  -2.309   2.095  0.00  0.10      P    N  
+ATOM     71  CA  TRP P   9       3.818  -2.992   3.015  0.00  1.00      P    C  
+ATOM     72  CB  TRP P   9       4.005  -2.662   4.555  0.00  0.10      P    C  
+ATOM     73  CG  TRP P   9       5.397  -2.469   5.110  0.00  0.10      P    C  
+ATOM     74  CD1 TRP P   9       6.220  -3.460   5.353  0.00  0.10      P    C  
+ATOM     75  NE1 TRP P   9       7.387  -3.118   5.924  0.00  0.10      P    N  
+ATOM     76  CE2 TRP P   9       7.517  -1.773   5.834  0.00  0.10      P    C  
+ATOM     77  CD2 TRP P   9       6.219  -1.298   5.401  0.00  0.10      P    C  
+ATOM     78  CE3 TRP P   9       6.125   0.093   5.086  0.00  0.10      P    C  
+ATOM     79  CZ3 TRP P   9       7.156   0.981   5.500  0.00  0.10      P    C  
+ATOM     80  CZ2 TRP P   9       8.540  -0.837   6.226  0.00  0.10      P    C  
+ATOM     81  CH2 TRP P   9       8.392   0.533   5.934  0.00  0.10      P    C  
+ATOM     82  C   TRP P   9       2.313  -2.898   2.772  0.00  0.10      P    C  
+ATOM     83  O   TRP P   9       1.774  -1.796   2.378  0.00  0.10      P    O  
+ATOM     84  N   TYR P  10       1.599  -3.968   3.204  0.00  0.10      P    N  
+ATOM     85  CA  TYR P  10       0.098  -3.983   3.165  0.00  1.00      P    C  
+ATOM     86  CB  TYR P  10      -0.276  -4.903   1.936  0.00  0.10      P    C  
+ATOM     87  CG  TYR P  10      -1.590  -4.621   1.276  0.00  0.10      P    C  
+ATOM     88  CD1 TYR P  10      -1.659  -3.743   0.273  0.00  0.10      P    C  
+ATOM     89  CE1 TYR P  10      -2.877  -3.573  -0.461  0.00  0.10      P    C  
+ATOM     90  CZ  TYR P  10      -3.995  -4.224   0.053  0.00  0.10      P    C  
+ATOM     91  OH  TYR P  10      -5.159  -3.919  -0.503  0.00  0.10      P    O  
+ATOM     92  CD2 TYR P  10      -2.793  -5.253   1.794  0.00  0.10      P    C  
+ATOM     93  CE2 TYR P  10      -4.005  -5.064   1.147  0.00  0.10      P    C  
+ATOM     94  C   TYR P  10      -0.514  -4.499   4.426  0.00  0.10      P    C  
+ATOM     95  O   TYR P  10      -0.200  -3.763   5.445  0.00  0.10      P    O  
+ATOM     96  NT  TYR P  10      -1.047  -5.319   4.217  0.00  0.10      P    N  
+ATOM     97  CAT TYR P  10      -1.457  -5.664   5.062  0.00  0.10      P    C  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6   14
+CONECT    6    5    7
+CONECT    7    6    8   12
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11   13
+CONECT   11   10
+CONECT   12    7   13
+CONECT   13   10   12
+CONECT   14    5   15   16
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18   26
+CONECT   18   17   19
+CONECT   19   18   20   24
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23   25
+CONECT   23   22
+CONECT   24   19   25
+CONECT   25   22   24
+CONECT   26   17   27   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   29   28   30   34
+CONECT   30   29   31
+CONECT   31   30   32   33
+CONECT   32   31
+CONECT   33   31
+CONECT   34   29   35   36
+CONECT   35   34
+CONECT   36   34   37   38
+CONECT   37   36   40
+CONECT   38   36   39   41
+CONECT   39   38   40
+CONECT   40   37   39
+CONECT   41   38   42   43
+CONECT   42   41
+CONECT   43   41   44
+CONECT   44   43   45   50
+CONECT   45   44   46
+CONECT   46   45   47
+CONECT   47   46   48   49
+CONECT   48   47
+CONECT   49   47
+CONECT   50   44   51   52
+CONECT   51   50
+CONECT   52   50   53
+CONECT   53   52   54   57
+CONECT   54   53   55   56
+CONECT   55   54
+CONECT   56   54
+CONECT   57   53   58   59
+CONECT   58   57
+CONECT   59   57   60
+CONECT   60   59   61
+CONECT   61   60   62   63
+CONECT   62   61
+CONECT   63   61   64
+CONECT   64   63   65   68
+CONECT   65   64   66   67
+CONECT   66   65
+CONECT   67   65
+CONECT   68   64   69   70
+CONECT   69   68
+CONECT   70   68   71
+CONECT   71   70   72   82
+CONECT   72   71   73
+CONECT   73   72   74   77
+CONECT   74   73   75
+CONECT   75   74   76
+CONECT   76   75   77   80
+CONECT   77   73   76   78
+CONECT   78   77   79
+CONECT   79   78   81
+CONECT   80   76   81
+CONECT   81   79   80
+CONECT   82   71   83   84
+CONECT   83   82
+CONECT   84   82   85
+CONECT   85   84   86   94
+CONECT   86   85   87
+CONECT   87   86   88   92
+CONECT   88   87   89
+CONECT   89   88   90
+CONECT   90   89   91   93
+CONECT   91   90
+CONECT   92   87   93
+CONECT   93   90   92
+CONECT   94   85   95   96
+CONECT   95   94
+CONECT   96   94   97
+CONECT   97   96
+ENDMDL
+END
