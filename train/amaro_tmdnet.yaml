@@ -1,0 +1,91 @@
+activation: silu
+aggr: add
+atom_filter: -1
+attn_activation: silu
+batch_size: 5
+box_vecs: null
+charge: false
+check_errors: true
+coord_files: null
+cutoff_lower: 0.0
+cutoff_upper: 5
+dataset: mdCATH
+dataset_arg:
+  max_num_neighbors: 64
+  noh_mode: true
+  numAtoms: null
+  numNoHAtoms: 1000
+  numResidues: 150
+  pdb_list: mdcath_list.txt
+  skipFrames: 25
+  solid_ss: 50
+  source_file: mdcath_noh_source.h5
+  temperatures:
+  - '320'
+  - '348'
+  - '379'
+  - '413'
+  - '450'
+  upper_cutoff: 5.0
+dataset_preload_limit: 1024
+dataset_root: ~/mdcath_noh
+derivative: true
+distance_influence: both
+early_stopping_patience: 30
+ema_alpha_neg_dy: 1.0
+ema_alpha_y: 1.0
+embed_files: null
+embedding_dimension: 128
+energy_files: null
+equivariance_invariance_group: O(3)
+force_files: null
+gradient_clipping: 0.0
+inference_batch_size: 5
+load_model: null
+log_dir: ./logs
+lr: 0.0003
+lr_factor: 0.8
+lr_metric: val_total_mse_loss
+lr_min: 1.0e-06
+lr_patience: 10
+lr_warmup_steps: 0
+max_num_neighbors: 64
+max_z: 15
+model: tensornet
+neg_dy_weight: 1.0
+neighbor_embedding: false
+ngpus: -1
+num_epochs: 100
+num_heads: 8
+num_layers: 1
+num_nodes: 1
+num_rbf: 32
+num_workers: 2
+output_mlp_num_layers: 0
+output_model: Scalar
+precision: 32
+prior_model: null
+rbf_type: expnorm
+redirect: false
+reduce_op: add
+remove_ref_energy: false
+reset_trainer: false
+save_interval: 5
+seed: 42
+spin: false
+splits: null
+standardize: false
+static_shapes: false
+tensorboard_use: false
+test_interval: -1
+test_size: 0.1
+train_size: null
+trainable_rbf: false
+val_size: 0.05
+vector_cutoff: false
+wandb_name: training
+wandb_project: training_
+wandb_resume_from_id: null
+wandb_use: false
+weight_decay: 0.0
+y_weight: 0.0
