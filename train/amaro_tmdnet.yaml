@@ -2,7 +2,7 @@ activation: silu
 aggr: add
 atom_filter: -1
 attn_activation: silu
-batch_size: 5
+batch_size: 8
 box_vecs: null
 charge: false
 check_errors: true
@@ -11,7 +11,6 @@ cutoff_lower: 0.0
 cutoff_upper: 5
 dataset: MDCATH
 dataset_arg:
-  max_num_neighbors: 64
   noh_mode: true
   numAtoms: null
   numNoHAtoms: 1000
@@ -20,13 +19,13 @@ dataset_arg:
   skipFrames: 25
   solid_ss: 50
   source_file: mdcath_noh_source.h5
+  file_basename: mdcath_noh_dataset
   temperatures:
   - '320'
   - '348'
   - '379'
   - '413'
   - '450'
-  upper_cutoff: 5.0
 dataset_preload_limit: 1024
 dataset_root: ~/mdcath_noh
 derivative: true
@@ -40,7 +39,7 @@ energy_files: null
 equivariance_invariance_group: O(3)
 force_files: null
 gradient_clipping: 0.0
-inference_batch_size: 5
+inference_batch_size: 8
 load_model: null
 log_dir: ./logs
 lr: 0.0003
