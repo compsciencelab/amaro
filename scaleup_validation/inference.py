@@ -44,7 +44,6 @@ if __name__ == '__main__':
                     pdb_list="test_doms.txt",
                     temperatures=['320', '348', '379', '413', '450'], 
                     skip_frames=1, 
-                    noh_mode=True, 
                     solid_ss=50
     )    
     print(f'Loaded {len(dataset)} samples')
