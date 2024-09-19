@@ -8,6 +8,8 @@ from collections import defaultdict
 from torchmdnet.datasets import MDCATH
 from torchmdnet.utils import make_splits
 from torch_geometric.loader import DataLoader
+from torchmdnet.models.model import load_model
+
 
 def get_atomtype_errors(errors):
     """ Get the error for atomtypes """
@@ -26,7 +28,7 @@ def get_atomtype_errors(errors):
 if __name__ == '__main__':
     
     # define paths and model 
-    model = "/PATH/TO/MODEL.ckpt"
+    ckpt = "/PATH/TO/MODEL.ckpt"
     error_log = "error.log"
     data_dir = "/PATH/TO/NOHMDCATH/DIR"
     outdir= '.'
@@ -64,6 +66,16 @@ if __name__ == '__main__':
     
     ######################### INFERENCE #########################
     errors = defaultdict(list)
+    model = load_model(
+            ckpt,
+            derivative=True,
+            static_shapes=True,
+            check_errors=False,
+            )
+    
+    for param in model.parameters():
+        param.requires_grad = False
+    
     model.to(device)
     model.eval()
     for b in tqdm(DataLoader(test_dataset, batch_size=1, num_workers=2, pin_memory=True, persistent_workers=False), desc="Inference"):
