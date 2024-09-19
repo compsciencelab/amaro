@@ -9,7 +9,7 @@ check_errors: true
 coord_files: null
 cutoff_lower: 0.0
 cutoff_upper: 5
-dataset: mdCATH
+dataset: MDCATH
 dataset_arg:
   max_num_neighbors: 64
   noh_mode: true
