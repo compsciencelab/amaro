@@ -96,7 +96,10 @@ if __name__ == '__main__':
     
     # build array of errors
     for prop in ["z", "num_atoms", "f_refs", "f_predicted",'domain_error', 'info']:
-        errors[prop] = np.array(errors[prop])
+            if prop in ['num_atoms', 'domain_error']:
+                errors[prop] = np.array(errors[prop])
+            else:
+                errors[prop] = np.concatenate(errors[prop], axis=0)
 
     # Save the errors to a json file
     json_dict = {}
