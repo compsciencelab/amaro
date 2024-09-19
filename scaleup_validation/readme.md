@@ -1,0 +1,1 @@
+Code and mdCATH domains list used to validate AMARO scale-up predictions.
