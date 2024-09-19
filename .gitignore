@@ -1,1 +1,14 @@
 data/ff_proteins/all-atom/
+
+# file extensions to ignore
+*.csv
+*.ckpt
+*.log
+*.txt
+*.h5
+*.json
+*.npy
+*.npz
+*.png
+*.pdf
+*.svg
