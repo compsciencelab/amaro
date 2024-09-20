@@ -9,6 +9,4 @@ prior energy terms, to run stable protein dynamics with scalability and generali
 
 > AMARO version 1.0.0
 - paper:</br>
-    AMARO: All Heavy-Atom Transferable Neural Network Potentials of Protein Thermodynamics. 
-
-
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AMARO: All Heavy-Atom Transferable Neural Network Potentials of Protein Thermodynamics. (under review)

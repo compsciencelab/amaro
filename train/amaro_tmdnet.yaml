@@ -15,7 +15,7 @@ dataset_arg:
   numNoHAtoms: 1000
   numResidues: 150
   pdb_list: mdcath_list.txt
-  skipFrames: 25
+  skip_frames: 25
   solid_ss: 50
   source_file: mdcath_noh_source.h5
   file_basename: mdcath_noh_dataset
