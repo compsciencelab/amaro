@@ -1,0 +1,8 @@
+# CUDA 12.6 / PyTorch 2.8 recipe for the amaro_v2 environment.
+# Use with pip -c; this is a constraints file, not a complete environment lock.
+torch==2.8.0
+nvidia-cuda-runtime-cu12==12.6.*
+nvidia-cuda-nvrtc-cu12==12.6.*
+nvidia-cuda-nvcc-cu12==12.6.*
+nvidia-cuda-cupti-cu12==12.6.*
+nvidia-nvjitlink-cu12==12.6.*
