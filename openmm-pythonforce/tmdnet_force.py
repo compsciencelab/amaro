@@ -36,6 +36,15 @@ class _ComputeTorchMDNet:
         self.dtype = next(model.parameters(), torch.empty(0)).dtype
         for parameter in self.model.parameters():
             parameter.requires_grad_(False)
+        # Cache fixed species embeddings before the first eager/compiled call.
+        models = (
+            self.model if isinstance(self.model, torch.nn.ModuleList) else (self.model,)
+        )
+        for model in models:
+            representation = getattr(model, "representation_model", None)
+            setup = getattr(representation, "setup_for_inference", None) # freeze embeddings for inference
+            if callable(setup):
+                setup(self.z, self.batch)
 
     def __call__(self, state):
         pos = (
