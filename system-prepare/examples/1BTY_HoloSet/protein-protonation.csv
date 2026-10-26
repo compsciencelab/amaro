@@ -1,0 +1,224 @@
+resname,protonation,resid,insertion,chain,segid,pKa,buried,predictor_pka_raw,state_sidechain_charge,charge_assignment_source,preparation_ph,pka_available,ph_minus_pka,near_ph,pka_status
+ILE,ILE,1,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,2,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,3,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,4,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,5,,A,,10.288944307792091,0.03214285714285714,10.288944307792091,0,predicted_pka_vs_ph,7.45,True,-2.838944307792091,False,predicted
+THR,THR,6,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,7,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+GLY,GLY,8,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,9,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,10,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,11,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,12,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+PRO,PRO,13,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,14,,A,,10.511505765781768,0.21785714285714286,10.511505765781768,0,predicted_pka_vs_ph,7.45,True,-3.061505765781768,False,predicted
+GLN,GLN,15,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,16,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,17,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,18,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,19,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,20,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,21,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,22,,A,,10.057435874335612,0.0,10.057435874335612,0,predicted_pka_vs_ph,7.45,True,-2.6074358743356116,False,predicted
+HIS,HID,23,,A,,4.627267278413779,0.925,4.627267278413779,0,predicted_pka_vs_ph,7.45,True,2.8227327215862212,False,predicted
+PHE,PHE,24,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,25,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+GLY,GLY,26,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,27,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,28,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,29,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,30,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,31,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,32,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLN,GLN,33,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TRP,TRP,34,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,35,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,36,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,37,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,38,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,39,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+HIS,HIP,40,,A,,7.48095196511613,0.6892857142857143,7.48095196511613,1,predicted_pka_vs_ph,7.45,True,-0.030951965116130076,True,predicted
+CYX,CYX,41,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+TYR,TYR,42,,A,,10.272228404296511,0.0,10.272228404296511,0,predicted_pka_vs_ph,7.45,True,-2.822228404296511,False,predicted
+LYS,LYS,43,,A,,10.245684346118512,0.0,10.245684346118512,1,predicted_pka_vs_ph,7.45,True,-2.795684346118512,False,predicted
+SER,SER,44,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,45,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,46,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLN,GLN,47,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,48,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ARG,ARG,49,,A,,11.822406342566218,0.24642857142857144,11.822406342566218,1,predicted_pka_vs_ph,7.45,True,-4.372406342566218,False,predicted
+LEU,LEU,50,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,51,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLU,GLH,52,,A,,8.733199291841284,0.8464285714285714,8.733199291841284,0,predicted_pka_vs_ph,7.45,True,-1.2831992918412842,False,predicted
+ASP,ASP,53,,A,,2.700103858628061,0.29642857142857143,2.700103858628061,-1,predicted_pka_vs_ph,7.45,True,4.74989614137194,False,predicted
+ASN,ASN,54,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,55,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,56,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,57,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,58,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLU,GLU,59,,A,,4.376954690912827,0.0,4.376954690912827,-1,predicted_pka_vs_ph,7.45,True,3.073045309087173,False,predicted
+GLY,GLY,60,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,61,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLU,GLU,62,,A,,3.1069565846385014,0.09642857142857143,3.1069565846385014,-1,predicted_pka_vs_ph,7.45,True,4.343043415361499,False,predicted
+GLN,GLN,63,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+PHE,PHE,64,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,65,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,66,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,67,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,68,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,69,,A,,10.300995000429628,0.0,10.300995000429628,1,predicted_pka_vs_ph,7.45,True,-2.850995000429628,False,predicted
+SER,SER,70,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,71,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,72,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+HIS,HID,73,,A,,5.310706389755691,0.3464285714285714,5.310706389755691,0,predicted_pka_vs_ph,7.45,True,2.1392936102443088,False,predicted
+PRO,PRO,74,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,75,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,76,,A,,10.64115679475085,0.21428571428571427,10.64115679475085,0,predicted_pka_vs_ph,7.45,True,-3.1911567947508503,False,predicted
+ASN,ASN,77,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,78,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,79,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,80,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,81,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,82,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,83,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASP,ASP,84,,A,,3.140782822877438,0.8607142857142858,3.140782822877438,-1,predicted_pka_vs_ph,7.45,True,4.309217177122562,False,predicted
+ILE,ILE,85,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+MET,MET,86,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,87,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,88,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,89,,A,,10.417604981938194,0.0,10.417604981938194,1,predicted_pka_vs_ph,7.45,True,-2.9676049819381936,False,predicted
+LEU,LEU,90,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,91,,A,,10.366623711615901,0.0,10.366623711615901,1,predicted_pka_vs_ph,7.45,True,-2.916623711615901,False,predicted
+SER,SER,92,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,93,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,94,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,95,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,96,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,97,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,98,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ARG,ARG,99,,A,,13.907539050092238,0.2857142857142857,13.907539050092238,1,predicted_pka_vs_ph,7.45,True,-6.457539050092238,False,predicted
+VAL,VAL,100,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,101,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,102,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,103,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,104,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,105,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+PRO,PRO,106,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,107,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,108,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,109,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+ALA,ALA,110,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,111,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,112,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,113,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,114,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLN,GLN,115,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,116,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+LEU,LEU,117,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,118,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,119,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,120,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TRP,TRP,121,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,122,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,123,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,124,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,125,,A,,10.380508894423356,0.0,10.380508894423356,1,predicted_pka_vs_ph,7.45,True,-2.9305088944233555,False,predicted
+SER,SER,126,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,127,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,128,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,129,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,130,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,131,,A,,10.868481750623388,0.30357142857142855,10.868481750623388,0,predicted_pka_vs_ph,7.45,True,-3.418481750623388,False,predicted
+PRO,PRO,132,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASP,ASP,133,,A,,4.066052370796289,0.0,4.066052370796289,-1,predicted_pka_vs_ph,7.45,True,3.3839476292037114,False,predicted
+VAL,VAL,134,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,135,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,136,,A,,10.081179395648402,0.08214285714285714,10.081179395648402,1,predicted_pka_vs_ph,7.45,True,-2.6311793956484015,False,predicted
+CYX,CYX,137,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+LEU,LEU,138,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,139,,A,,10.378850461944037,0.0,10.378850461944037,1,predicted_pka_vs_ph,7.45,True,-2.9288504619440365,False,predicted
+ALA,ALA,140,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+PRO,PRO,141,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,142,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LEU,LEU,143,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,144,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASP,ASP,145,,A,,3.4899387128527817,0.19285714285714287,3.4899387128527817,-1,predicted_pka_vs_ph,7.45,True,3.9600612871472185,False,predicted
+SER,SER,146,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,147,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,148,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+LYS,LYS,149,,A,,10.324771163196944,0.0,10.324771163196944,1,predicted_pka_vs_ph,7.45,True,-2.874771163196944,False,predicted
+SER,SER,150,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,151,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,152,,A,,11.353183941103229,0.4392857142857143,11.353183941103229,0,predicted_pka_vs_ph,7.45,True,-3.9031839411032285,False,predicted
+PRO,PRO,153,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,154,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLN,GLN,155,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,156,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,157,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,158,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,159,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+MET,MET,160,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+PHE,PHE,161,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,162,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+ALA,ALA,163,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,164,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,165,,A,,10.188644395226785,0.0035714285714285713,10.188644395226785,0,predicted_pka_vs_ph,7.45,True,-2.7386443952267845,False,predicted
+LEU,LEU,166,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLU,GLU,167,,A,,4.6244069717544996,0.0,4.6244069717544996,-1,predicted_pka_vs_ph,7.45,True,2.8255930282455006,False,predicted
+GLY,GLY,168,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,169,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,170,,A,,10.475778231043723,0.0,10.475778231043723,1,predicted_pka_vs_ph,7.45,True,-3.0257782310437227,False,predicted
+ASP,ASP,171,,A,,5.8347306274544355,0.7428571428571429,5.8347306274544355,-1,predicted_pka_vs_ph,7.45,True,1.6152693725455647,False,predicted
+SER,SER,172,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,173,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+GLN,GLN,174,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,175,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASP,ASP,176,,A,,4.56498472416505,1.0,4.56498472416505,-1,predicted_pka_vs_ph,7.45,True,2.8850152758349505,False,predicted
+SER,SER,177,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,178,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,179,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+PRO,PRO,180,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,181,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,182,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,183,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+SER,SER,184,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,185,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,186,,A,,10.328277291324989,0.0,10.328277291324989,1,predicted_pka_vs_ph,7.45,True,-2.8782772913249888,False,predicted
+LEU,LEU,187,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLN,GLN,188,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,189,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,190,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,191,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,192,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TRP,TRP,193,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,194,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,195,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,196,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,197,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+ALA,ALA,198,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLN,GLN,199,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,200,,A,,10.323360294890232,0.0,10.323360294890232,1,predicted_pka_vs_ph,7.45,True,-2.873360294890232,False,predicted
+ASN,ASN,201,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,202,,A,,10.360619811506753,0.0,10.360619811506753,1,predicted_pka_vs_ph,7.45,True,-2.910619811506753,False,predicted
+PRO,PRO,203,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+GLY,GLY,204,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+VAL,VAL,205,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,206,,A,,13.565727340510982,1.0,13.565727340510982,0,predicted_pka_vs_ph,7.45,True,-6.115727340510982,False,predicted
+THR,THR,207,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,208,,A,,9.941397619442865,0.29642857142857143,9.941397619442865,1,predicted_pka_vs_ph,7.45,True,-2.491397619442865,False,predicted
+VAL,VAL,209,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+CYX,CYX,210,,A,,,,,0,disulfide_not_titratable,7.45,False,,False,not_applicable_disulfide
+ASN,ASN,211,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TYR,TYR,212,,A,,11.884641210073106,0.5821428571428572,11.884641210073106,0,predicted_pka_vs_ph,7.45,True,-4.434641210073106,False,predicted
+VAL,VAL,213,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,214,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+TRP,TRP,215,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,216,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+LYS,LYS,217,,A,,10.302918893682154,0.0,10.302918893682154,1,predicted_pka_vs_ph,7.45,True,-2.852918893682154,False,predicted
+GLN,GLN,218,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+THR,THR,219,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ILE,ILE,220,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ALA,ALA,221,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+SER,SER,222,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state
+ASN,ASN,223,,A,,,,,0,non_titratable,7.45,False,,False,not_returned; do_not_infer_a_pka_from_the_selected_state

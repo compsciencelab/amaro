@@ -1,0 +1,48 @@
+{
+  "sys_id": "1BTY_HoloSet",
+  "input_pdb": "../hf/data/protein-ligand/HoloSet_1bty.pdb",
+  "input_topology": null,
+  "exclude_resnames": [
+    "CA"
+  ],
+  "topology_source": "systemPrepare+guessBonds;nonprotein:input_pdb+ligand_templates_and_ion_formal_charges",
+  "ph": 7.45,
+  "reset_protein_protonation": true,
+  "protein_charge_method": "pka",
+  "protein_pka_scope": "protein_only; ligand_and_ions_prepared_separately",
+  "pka_tie_rule": "pH_equal_pKa_selects_less_protonated_state",
+  "protein_protonation_report": {
+    "csv": "protein-protonation.csv",
+    "json": "protein-protonation.json",
+    "residues": 223,
+    "ionizable_without_pka": 0,
+    "near_ph": 1,
+    "charge_note": "Integer side-chain charges from pH/pKa; protein termini are prepared by systemPrepare. For the supported 1BTY inputs their terminal charges cancel."
+  },
+  "ligand_smiles": {},
+  "benzamidinium_pka": 11.6,
+  "protein_charge": 8.0,
+  "nonprotein_charge": 1.0,
+  "total_charge": 9.0,
+  "charge_source": "per_residue_predicted_pka_vs_ph+nonprotein_template_and_ion_formal_charges",
+  "charge_file_semantics": {
+    "noh-charge.npy": "Compatibility NOH charge vector with total charge stored at index 0 and zeros elsewhere.",
+    "total-charge.npy": "Preferred scalar charge file for charge-conditioned TensorNet2 Coulomb models."
+  },
+  "num_constraints": 1602,
+  "keep_water": false,
+  "complex_stats": {
+    "system": "protein-ligand",
+    "complex_name": "HoloSet_1bty",
+    "total_charge": 9.0,
+    "num_atoms_total": 3240,
+    "num_atoms_protein": 3222,
+    "num_atoms_ligands": 18,
+    "num_noh_atoms_total": 1638,
+    "num_noh_atoms_protein": 1629,
+    "num_noh_atoms_ligands": 9,
+    "unique_elements": "C,H,N,O,S",
+    "num_bonds_total": 3277,
+    "charge_source": "per_residue_predicted_pka_vs_ph+nonprotein_template_and_ion_formal_charges"
+  }
+}

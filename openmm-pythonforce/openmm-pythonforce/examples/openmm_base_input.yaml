@@ -1,0 +1,42 @@
+# Run from the repository root; short example with the included checkpoint and prepared 1BTY system.
+model_ckpt: ckpts/amaro_v2.ckpt
+model_energy_unit: kcal/mol
+model_length_unit: angstrom
+pdb: system-prepare/examples/1BTY_HoloSet/noh.pdb
+psf: system-prepare/examples/1BTY_HoloSet/noh.psf
+embedding: system-prepare/examples/1BTY_HoloSet/noh-embedding.npy
+charges: system-prepare/examples/1BTY_HoloSet/total-charge.npy
+noh: not element H
+use_increased_masses: false
+outdir: outputs/1BTY-example
+outname: output
+steps: 10
+comp_time: null
+output_freq: 1
+time_step: 1.0
+temperature: 300.0
+friction_coeff: 1.0
+minimize_steps: 0
+seed: 42
+save_final_state: true
+force_nonperiodic: true
+periodic_box: null
+periodic_box_unit: angstrom
+coulomb_cutoff: 0.0
+reaction_field_dielectric: null
+include_atomref_energy: false
+constrainHBonds: false
+hydrogen_mass: null
+init_coords: null
+bound_pdb: null
+ligand_sel: resname BEN and noh
+k_harmonic: 0.0
+ca_harmonic_pocket_cutoff: 5.0
+k_flat_bottom: 0.0
+flat_bottom_box_size: 50.0,50.0,50.0
+flat_bottom_pocket_cutoff: 5.0
+flat_bottom_pocket_residues: 5
+external: {}
+compile: false
+device: cuda
+platform: CUDA
