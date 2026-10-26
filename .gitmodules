@@ -1,0 +1,4 @@
+[submodule "torchmd-net"]
+	path = torchmd-net
+	url = https://github.com/AntonioMirarchi/torchmd-net.git
+	branch = amaro
