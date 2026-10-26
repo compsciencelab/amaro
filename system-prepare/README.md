@@ -33,9 +33,6 @@ For example:
 # All protein chains, without ligands or ions:
 ... --filter-str 'protein'
 
-# One copy of the 6XK9 complex, including its V4M ligand and structural zinc:
-... --filter-str 'chain X Y Z' --ligand-smiles 'V4M=<protonated SMILES>'
-
 # Selected chains, excluding a particular component:
 ... --filter-str '(chain A B) and not resname BEN'
 ```
@@ -85,8 +82,8 @@ not force-field partial charges.
 
 Bead summaries and metadata use MoleculeKit selections to distinguish `protein`,
 `ligands` (non-polymer molecules, including cofactors), and `others` (ions, water,
-nucleic acids, and lipids). Classification does not depend on a ligand name such
-as BEN or V4M. Preparation still requires a template or supplied topology for
+nucleic acids, and lipids). Classification does not depend on ligand names.
+Preparation still requires a template or supplied topology for
 non-protein components, and all exported elements must be supported by `NOH_MAP_DICT`.
 
 The output directory contains `noh.pdb`, `noh.psf`, `noh-embedding.npy`, `noh-charge.npy`, `total-charge.npy`, and `metadata.json`. Pass all four simulation inputs, including the embedding, to PythonForce.
