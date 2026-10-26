@@ -21,15 +21,20 @@ from system import build_full_nnp_system, configure_periodic_box
 from tmdnet_force import _ComputeTorchMDNet, add_python_force
 
 ROOT = Path(__file__).resolve().parents[2]
-SOURCE = ROOT / "tmdnet-amaro-v2"
+DATA = Path(__file__).with_name("data")
 
 
 @pytest.fixture(scope="module")
 def checkpoint(tmp_path_factory):
-    args = yaml.safe_load((SOURCE / "examples" / "TensorNet-QM9.yaml").read_text())
-    args.update(
+    args = dict(
         model="tensornet2",
+        activation="silu",
+        atom_filter=-1,
+        cutoff_lower=0.0,
+        cutoff_upper=5.0,
         embedding_dimension=8,
+        equivariance_invariance_group="O(3)",
+        max_z=128,
         num_layers=1,
         num_rbf=4,
         q_dim=2,
@@ -38,11 +43,13 @@ def checkpoint(tmp_path_factory):
         derivative=False,
         static_shapes=False,
         output_model="Scalar",
+        rbf_type="expnorm",
+        reduce_op="add",
+        trainable_rbf=False,
         max_num_neighbors=64,
         remove_ref_energy=False,
         charge=False,
     )
-    args.pop("check_errors", None)
     torch.manual_seed(123)
     model = create_model(args)
     path = tmp_path_factory.mktemp("model") / "model.ckpt"
@@ -106,7 +113,7 @@ def test_yaml_and_validation(tmp_path):
 def test_checkpoint_matches_calculator_and_finite_difference(
     checkpoint, periodic, energy_unit, scale
 ):
-    atoms = read(SOURCE / "tests" / "caffeine.pdb")
+    atoms = read(DATA / "caffeine.pdb")
     atoms.info["charge"] = 0.5
     atoms.set_cell(np.eye(3) * 40)
     atoms.set_pbc(periodic)
@@ -185,7 +192,7 @@ def test_callback_force_modes_and_length_units(returned_forces, length_scale):
 
 def test_noh_selection_and_increased_masses():
     system, top, z, pos, box = build_full_nnp_system(
-        str(SOURCE / "tests" / "caffeine.pdb"),
+        str(DATA / "caffeine.pdb"),
         noh_mode="noh and element C",
         use_increased_masses=True,
     )
@@ -217,7 +224,7 @@ def test_runner_outputs(checkpoint, tmp_path, monkeypatch, clock_time):
         "--model-ckpt",
         str(checkpoint),
         "--pdb",
-        str(SOURCE / "tests" / "caffeine.pdb"),
+        str(DATA / "caffeine.pdb"),
         "--device",
         "cpu",
         "--platform",

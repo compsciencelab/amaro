@@ -135,14 +135,10 @@ def build_full_nnp_system(
         except TypeError as exc:
             if "unexpected keyword argument 'guessBonds'" not in str(exc):
                 raise
-            readme = os.path.abspath(os.path.join(
-                os.path.dirname(__file__), "..", "tmdnet-amaro-v2", "examples",
-                "openmm_pythonforce", "README.md",
-            ))
             raise RuntimeError(
                 "Installed MoleculeKit does not support guessBonds in Molecule.filter(). "
-                f"See {readme}, section 'MoleculeKit compatibility warning', "
-                "for the local fix, then restart Python and rerun."
+                "Use a MoleculeKit installation supporting this argument, "
+                "then restart Python and rerun."
             ) from exc
 
     masses = np.asarray(mol.masses, dtype=np.float64)

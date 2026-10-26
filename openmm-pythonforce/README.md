@@ -1,30 +1,28 @@
 # OpenMM PythonForce
 
-Run TorchMD-Net checkpoints with OpenMM's `PythonForce`. This runner targets
-[`tmdnet-amaro-v2`](../tmdnet-amaro-v2) and does not require the
-Acellera TensorNet plugin. See the [release README](../README.md) for installation,
+Run TorchMD-Net checkpoints with OpenMM's `PythonForce`. This runner imports
+`torchmdnet` from the active Python environment. Follow the repository's
+installation instructions to install the AMARO version. It does not require
+the Acellera TensorNet plugin.
+See the [repository README](../README.md) for installation,
 checkpoint inventory, and prepared inputs. Use `--model-ckpt` (`-m`) to select a checkpoint.
 
 ## Installation
 
 First follow the [Python 3.13 / CUDA 12.6 environment recipe](../README.md#install)
-to create `amaro_v2`. From the release root, reactivate it and check the runner:
+to create `amaro_v2`. From the repository root, reactivate it and check the runner:
 
 ```bash
 mamba activate amaro_v2
-python scripts/amaro.py check
 python -c 'import torchmdnet, openmm; print(torchmdnet.__file__); print(openmm.__version__); assert hasattr(openmm, "PythonForce")'
 ```
 
-The runner uses the installed `torchmdnet` package and prints its source location.
-An existing editable installation pointing elsewhere must be replaced with the
-release source above. To test this source without changing the installation,
-prefix commands with `PYTHONPATH="$PWD/tmdnet-amaro-v2"`.
-No code depends on a particular shared filesystem path.
+The check prints the installed `torchmdnet` location so you can confirm the
+active environment uses the intended AMARO version.
 
 ## Running
 
-Run from the `hf-amarov2` directory. Supply a checkpoint trained for the input species
+Run from the repository root. Supply a checkpoint trained for the input species
 and their ordering; a NOH model needs NOH species ids, not atomic numbers.
 
 ```bash
@@ -90,34 +88,23 @@ Use either `--steps` or `--comp-time` (hours); clock-time runs report elapsed ti
 
 ## Lightweight tests
 
-With pytest installed, run the small CPU regression suite from the `hf-amarov2` directory:
+With pytest installed, run the small CPU regression suite from the repository root:
 
 ```bash
-PYTHONPATH="$PWD/tmdnet-amaro-v2" OMP_NUM_THREADS=1 \
-  python -m pytest openmm-pythonforce/tests/test_runner.py -q
-PYTHONPATH="$PWD/tmdnet-amaro-v2" OMP_NUM_THREADS=1 \
-  python -m pytest tmdnet-amaro-v2/tests/test_calculator_inference.py -q
+OMP_NUM_THREADS=1 python -m pytest openmm-pythonforce/tests -q
 ```
 
-Tests compare PythonForce against the release source's ASE calculator and
+Tests use the installed `torchmdnet` package and local molecular fixtures.
+They compare PythonForce against its ASE calculator and
 finite-difference forces, check unit conversion, fractional charge, periodic
 boxes, NOH masses, CLI parity, and short-run outputs. They do not benchmark CUDA
 or require the Acellera plugin.
 
-## Convenience commands
+## Additional run options
 
-From the release root:
-
-```bash
-python scripts/amaro.py validate-inputs system-prepare/examples/1BTY_HoloSet
-python scripts/amaro.py run system-prepare/examples/1BTY_HoloSet --outdir outputs/check --dry-run
-python scripts/amaro.py run system-prepare/examples/1BTY_HoloSet --outdir outputs/check --steps 10
-```
-
-The convenience command defaults to CUDA, nonperiodic dynamics, 1 fs, 300 K,
-and a report every step. It does not minimize. Use a new output directory for
-each run: the runner overwrites report files. Use `run.py --help` for the full
-interface, including restraints, periodic boxes, minimization, and clock-time runs.
+Use a new output directory for each run: the runner overwrites report files.
+Use `python openmm-pythonforce/run.py --help` for the full interface, including
+restraints, periodic boxes, minimization, and clock-time runs.
 
 For example, from the root, a user-chosen 1000-step run with minimization is:
 
