@@ -15,7 +15,10 @@ total-charge conditioning.
 | [system-prepare/](system-prepare/README.md) | System preparation, NOH bead mapping, and prepared examples |
 | [openmm-pythonforce/](openmm-pythonforce/README.md) | OpenMM PythonForce runner, configuration, and simulation instructions |
 
-Model checkpoints are hosted on [Hugging Face](https://huggingface.co/compsciencelab/AMARO).
+The three AMARO v2 checkpoints will be released together on
+[Hugging Face: compsciencelab/AMARO2](https://huggingface.co/compsciencelab/AMARO2).
+The model and results are described in the
+[AMARO v2 preprint](https://arxiv.org/pdf/2610.37606v1).
 
 ## Clone
 
@@ -78,10 +81,18 @@ The three v2 checkpoints correspond to sequential training stages:
 | `amaro_v2_p.ckpt` | Continued training on mdCATH proteins |
 | `amaro_v2.ckpt` | Continued training on protein–ligand complexes; final model |
 
-Once the `v2.0` release is published on Hugging Face, download the final model:
+After publishing the `v2.0` release on Hugging Face, download the final model:
 
 ```bash
-hf download compsciencelab/AMARO amaro_v2.ckpt --revision v2.0 --local-dir ckpts
+hf download compsciencelab/AMARO2 amaro_v2.ckpt --revision v2.0 --local-dir ckpts
+```
+
+To download all three training stages:
+
+```bash
+hf download compsciencelab/AMARO2 \
+  amaro_v2_sm.ckpt amaro_v2_p.ckpt amaro_v2.ckpt \
+  --revision v2.0 --local-dir ckpts
 ```
 
 Follow the [OpenMM PythonForce guide](openmm-pythonforce/README.md) to run a
@@ -108,13 +119,17 @@ Please cite both works when using AMARO v2.
 }
 ```
 
-**AMARO v2.0** — DOI/preprint link to be added.
+**AMARO v2.0** — [arXiv:2610.37606v1](https://arxiv.org/pdf/2610.37606v1).
 
 ```bibtex
 @unpublished{mirarchi2026amarov2,
   title = {A unified coarse-grained neural network potential for the dynamics of biomolecular complexes},
   author = {Mirarchi, Antonio and Farr, Stephen E. and Perez, Adria and De Fabritiis, Gianni},
   year = {2026},
-  note = {DOI and preprint link to be added}
+  eprint = {2610.37606},
+  archivePrefix = {arXiv},
+  primaryClass = {q-bio.BM},
+  url = {https://arxiv.org/pdf/2610.37606v1},
+  note = {Version 1}
 }
 ```

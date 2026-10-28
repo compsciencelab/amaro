@@ -30,7 +30,7 @@ python openmm-pythonforce/run.py \
   --conf openmm-pythonforce/examples/openmm_base_input.yaml
 ```
 
-The example runs 10 unrestrained, nonperiodic steps with `ckpts/amaro_v2.ckpt`
+The example runs 10 unrestrained, nonperiodic steps with the downloaded `ckpts/amaro_v2.ckpt`
 and the included 1BTY_HoloSet NOH inputs. It uses a 1 fs step, 300 K, and no
 minimization. This is an execution example, not an equilibration or manuscript
 production protocol. Paths in YAML are relative to the
@@ -61,7 +61,7 @@ positive value overrides it in model length units. `--reaction-field-dielectric`
 requires a cutoff Coulomb output head. `--include-atomref-energy` enables the
 checkpoint's reference-energy contribution through `load_model`; by default
 Atomref priors are disabled. An enabled prior must exist in the checkpoint to
-restore reference energies. The included AMARO v2 checkpoints have a Scalar
+restore reference energies. The released AMARO v2 checkpoints have a Scalar
 output head and no Atomref prior: Coulomb-specific controls and restoration of
 reference energies do not apply to these checkpoints.
 

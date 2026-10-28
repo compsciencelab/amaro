@@ -1,4 +1,4 @@
-# Run from the repository root; short example with the included checkpoint and prepared 1BTY system.
+# Run from the repository root after downloading amaro_v2.ckpt from compsciencelab/AMARO2.
 model_ckpt: ckpts/amaro_v2.ckpt
 model_energy_unit: kcal/mol
 model_length_unit: angstrom
